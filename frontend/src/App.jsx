@@ -2,7 +2,7 @@
  
  const App = () => {
    return (
-     <div >
+     <div className="text-4xl bg-amber-900 font-bold text-center mt-10">
        hello
      </div>
    )

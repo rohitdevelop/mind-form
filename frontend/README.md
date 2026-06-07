@@ -1,3 +1,7 @@
+# Frontend
+
+This folder contains the frontend for the Mindform app (Vite + React). Placeholder files added.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
