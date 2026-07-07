@@ -1,38 +1,26 @@
 {
   "name": "mindform-backend",
-  "version": "0.0.1",
-  "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "jsonwebtoken": "^9.0.0"
-  }
-}
-{
-  "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
+  "description": "MindForm Backend",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@prisma/client": "^7.8.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "nodemon": "^3.1.14",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
     "prisma": "^7.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
