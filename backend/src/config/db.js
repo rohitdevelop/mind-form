@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const dbconnect = async () => {
-  const connct = mongoose.connect(process.env.MONGO_URI);
+  const conect = mongoose.connect(process.env.MONGO_URI);
 
-  if (connct) {
+  if (conect) {
     console.log("done");
   } else console.log("not done");
 };
