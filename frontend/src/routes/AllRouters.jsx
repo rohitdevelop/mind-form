@@ -4,6 +4,7 @@ import Login from '../pages/auth/Login'
 import { Route, Routes } from 'react-router-dom'
 import Todo from '../pages/Home/todo'
 import Navbar from '../components/Navbar'
+import Profile from '../pages/profile/Profile'
 const AlllRouters = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const AlllRouters = () => {
          <Route path="/" element={<Todo />} />
          <Route path="/login" element={<Login />} />
          <Route path="/register" element={<Register />} />
+         <Route path="/profile" element={<Profile />} />
         </Routes>
 
      </div>
