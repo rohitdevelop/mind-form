@@ -2,9 +2,12 @@ const mongoose = require('mongoose');
 
 
 const todoSchema =  new mongoose.Schema({
-    titile:{
+    title:{
         type:String,
-
+        
+    },
+    message:{
+        type:String,
     },
     userId:{
     type:mongoose.Schema.Types.ObjectId,

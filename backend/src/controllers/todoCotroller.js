@@ -1,13 +1,13 @@
-const todo = require('../models/todoModel');
+const todo = require('../models/todo');
 
 exports.createTodo = async (req, res) => {
     try {
-        const { title, userId } = req.body; 
+        const { title, message } = req.body; 
         
 
         const newTodo = await todo.create({
             title,
-            userId
+            message
         });
 
         res.status(201).json({ message: 'Todo created successfully', todo: newTodo });
